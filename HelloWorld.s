@@ -4,7 +4,7 @@
 _start:
 	mov X0, 1
 	adr X1, helloworld
-	mov X2, 61
+	mov X2, 106
 	mov X16, 4
 	svc 128
 	
@@ -13,4 +13,4 @@ _start:
 	svc 128
 
 helloworld:
-	.ascii "Hi there, everyone! I'm draumaz, but this time in Assembly!\n"
+	.ascii "Hi there, everyone! This is your favorite goat programming boy, draumaz, but this time, I'm in Assembly!\n"
